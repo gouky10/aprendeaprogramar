@@ -9,39 +9,41 @@
     
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
-    <script src='main.js'></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
     <!--Logo y menú-->
-    <nav class="navbar navbar-expand-sm">
-        <span class="navbar-brand mb-0 h1">Aprende a programar</span>
+    <nav id="mainmenu" class="navbar navbar-expand-sm bg-light">
+        <a class="navbar-brand mb-0 h1" href="./index.html">Aprende a programar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-            <ul class="navbar-nav ">
-                <li class="navbar-item active">
-                    <a class="nav-link" href="#">¿Por qué programar?</a></li>
+            <ul class="nav nav-pills">
+                <li class="navbar-item">
+                    <a class="nav-link" href="./index.html#porque">¿Por qué programar?</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link" href="./index.html#comoaprender">¿Cómo aprender?</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link" href="./index.html#nosotros">Nosotros</a>
+                </li>
                 <li class="navbar-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Talleres</a>
+                    <a class="nav-link dropdown-toggle" href="./index.html#talleres" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Talleres</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Programación creativa</a>
-                        <a class="dropdown-item" href="#">Fundamentos de programación</a>
+                        <a class="dropdown-item" href="./prograCreativaScratch.html">Programación creativa</a>
+                        <a class="dropdown-item" href="./fundamentoPrograJavascript.html">Fundamentos de programación</a>
                     </div>
                 </li>
                 <li class="navbar-item">
-                    <a class="nav-link" href="#">Preguntas Frecuentes</a></li>
+                    <a class="nav-link" href="./index.html#faq">Preguntas Frecuentes</a></li>
                 <li class="navbar-item">
-                    <a class="nav-link" href="#">Contacto</a></li>
+                    <a class="nav-link" href="./index.html#contacto">Contacto</a></li>
             </ul>
         </div>
     </nav>      
     
-    <div class="container-fluid">
+    <div class="container-fluid text-center">
         <div class="jumbotron">
             <div class="row justify-content-center">
                 <h1 class="display-2">Descrube la magia en la era digital!</h1>
@@ -51,8 +53,9 @@
     
     <!--Motivos y estadisticas-->
     <div class="container text-center">
+        <div data-spy="scroll" data-target="#mainmenu" data-offset="0">
         <!--Que se puede programar-->
-        <div>
+        <div id="porque">
             <p class="h5">Programar es <q>dar instrucciones a una máquina para que funcione de manera automática</q>, pero</p>
             <h1>¿Porque deberia aprender a programar?</h1>
             
@@ -284,7 +287,7 @@
         <button type="button" class="btn btn-primary btn-lg">Aprende a Programar</button>
     
         
-        <h1 class="mt-5">¿Cómo deberia aprender?</h2>
+        <h1 id="comoaprender" class="mt-5">¿Cómo deberia aprender?</h2>
         <div class="row justify-content-center align-items-center">
             <div class="col-7">
                 <p >Hoy en dia hay varios sitios web, cursos en linea, videos a demanda, documentación y demas alternativas; la verdad muchas de estas opciones son geniales, gratuitas y nosostros tambien las sugerimos. Sin embargo debes tener en cuenta lo siguiente:</p>
@@ -298,7 +301,7 @@
             </div>
         </div>
         <!--Nosotros-->
-        <h1 class="mt-5">Nosotros</h1>
+        <h1 id="nosotros" class="mt-5">Nosotros</h1>
         <div class="row justify-content-center align-items-center">
             <div class="col-3">
                 <img src="https://dummyimage.com/300x300/8b3ad6/fff" class="card-img-top" >
@@ -314,7 +317,7 @@
         
         <!--Taller-->
         
-        <h2 class="mt-4">¿Por qué deberia deberia elegirlos a ustedes?</h2>
+        <h2 id="talleres" class="mt-4">¿Por qué deberia deberia elegirlos a ustedes?</h2>
     
         <p>Nosotros te ofrecemos un <strong>APRENDIZAJE EFECTIVO</strong> en nuestros talleres</p>
     
@@ -359,7 +362,7 @@
     
         <button type="button" class="btn btn-primary btn-lg">Aprende a Programar</button>
     
-        <h2 class="mt-5">Preguntas Frecuentes</h2>
+        <h2 id="faq" class="mt-5">Preguntas Frecuentes</h2>
         <div class="row justify-content-center align-items-center">
             <div class="col-7 text-justify">
                 <h4>¿Cuales son los talleres disponibles?</h4>
@@ -376,7 +379,7 @@
             </div>
         </div>
     
-        <h1 class="mt-5">Contacto</h1>
+        <h1 id="contacto" class="mt-5">Contacto</h1>
         <div class="row justify-content-center align-items-center">
             <div class="col-6">
                 <p>Para cualquier duda o consulta puedes</p>
@@ -386,6 +389,7 @@
             <div class="col-6">
                 <img src="https://dummyimage.com/400x250/8b3ad6/fff" class="card-img-top" >
             </div>
+        </div>
         </div>
         
     
@@ -398,4 +402,8 @@
     </div>
 </body>
 <footer class="mt-5 py-5 bg-light text-center">© APPDEV PE - Todos los derechos reservados</footer>
+<script src='main.js'></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>

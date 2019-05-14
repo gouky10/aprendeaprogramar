@@ -16,26 +16,33 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm">
-        <span class="navbar-brand mb-0 h1">Aprende a programar</span>
+    <nav id="mainmenu" class="navbar navbar-expand-sm bg-light">
+        <a class="navbar-brand mb-0 h1" href="./index.html">Aprende a programar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-            <ul class="navbar-nav ">
-                <li class="navbar-item active">
-                    <a class="nav-link" href="#">¿Por qué programar?</a></li>
+            <ul class="nav nav-pills">
+                <li class="navbar-item">
+                    <a class="nav-link" href="./index.html#porque">¿Por qué programar?</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link" href="./index.html#comoaprender">¿Cómo aprender?</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link" href="./index.html#nosotros">Nosotros</a>
+                </li>
                 <li class="navbar-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Talleres</a>
+                    <a class="nav-link dropdown-toggle" href="./index.html#talleres" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Talleres</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Programación creativa</a>
-                        <a class="dropdown-item" href="#">Fundamentos de programación</a>
+                        <a class="dropdown-item" href="./prograCreativaScratch.html">Programación creativa</a>
+                        <a class="dropdown-item" href="./fundamentoPrograJavascript.html">Fundamentos de programación</a>
                     </div>
                 </li>
                 <li class="navbar-item">
-                    <a class="nav-link" href="#">Preguntas Frecuentes</a></li>
+                    <a class="nav-link" href="./index.html#faq">Preguntas Frecuentes</a></li>
                 <li class="navbar-item">
-                    <a class="nav-link" href="#">Contacto</a></li>
+                    <a class="nav-link" href="./index.html#contacto">Contacto</a></li>
             </ul>
         </div>
     </nav>
