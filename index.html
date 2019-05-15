@@ -12,81 +12,82 @@
 </head>
 <body>
     <!--Logo y menú-->
-    <nav id="mainmenu" class="navbar navbar-expand-sm bg-light">
-        <a class="navbar-brand mb-0 h1" href="./index.html"> <img src="./imagenes/i_logo-aprendeaprogramar.png" width="310" height="40" alt=""></a>
+    <nav id="mainmenu" class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="./index.html"><img src="./imagenes/i_logo-aprendeaprogramar.png" width="250" alt="logo aprende a programar"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-            <ul class="nav nav-pills">
-                <li class="navbar-item">
+        <div id="navbarNav" class="navbar-collapse collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
                     <a class="nav-link" href="./index.html#porque">¿Por qué programar?</a>
                 </li>
-                <li class="navbar-item">
+                <li class="nav-item">
                     <a class="nav-link" href="./index.html#comoaprender">¿Cómo aprender?</a>
                 </li>
-                <li class="navbar-item">
+                <li class="nav-item">
                     <a class="nav-link" href="./index.html#nosotros">Nosotros</a>
                 </li>
-                <li class="navbar-item dropdown">
+                <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="./index.html#talleres" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Talleres</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="./prograCreativaScratch.html">Programación creativa</a>
                         <a class="dropdown-item" href="./fundamentoPrograJavascript.html">Fundamentos de programación</a>
                     </div>
                 </li>
-                <li class="navbar-item">
+                <li class="nav-item">
                     <a class="nav-link" href="./index.html#faq">Preguntas Frecuentes</a></li>
-                <li class="navbar-item">
+                <li class="nav-item">
                     <a class="nav-link" href="./index.html#contacto">Contacto</a></li>
             </ul>
         </div>
     </nav>      
     
+    <!--Jumbotrom-->
     <div class="container-fluid text-center">
         <div class="jumbotron">
             <div class="row justify-content-center">
-                <h1 class="display-2">Descrube la magia en la era digital!</h1>
+                <h1 class="display-2">Descubre la magia en la era digital!</h1>
             </div>
         </div>
     </div>
     
     <!--Motivos y estadisticas-->
     <div class="container text-center">
-        <div data-spy="scroll" data-target="#mainmenu" data-offset="0">
+        <div data-spy="scroll" data-target="#mainmenu" data-offset="80">
         <!--Que se puede programar-->
         <div id="porque">
             <p class="h5">Programar es <q>dar instrucciones a una máquina para que funcione de manera automática</q>, pero</p>
-            <h1>¿Porque deberia aprender a programar?</h1>
+            <h1>¿Por qué debería aprender a programar?</h1>
             
             <p class="h5">Te presentamos algunas razones que debes conocer</p>
             
         </div>
         
-        <h2 class="mt-4">1. Se puede programar en más dispositivos de los que imaginas</h2>
+        <h2 class="mt-5">1. Se puede programar en más dispositivos de los que imaginas</h2>
         
-        <div class="row justify-content-center">
-            <div class="col-3">
-              <img src="./imagenes/i_computadora.png" class="card-img-top" >
+        <div class="row justify-content-around">
+            <div class="col-md-3">
+              <img src="./imagenes/i_computadora.png" >
               <div class="card-body">
                 <p class="card-text h4">Computadoras</p>
               </div>
             </div>
-            <div class="col-3">
-              <img src="./imagenes/i_tablet.png" class="card-img-top" >
+            <div class="col-md-3">
+              <img src="./imagenes/i_tablet.png">
               <div class="card-body">
                 <p class="card-text h4">Tablets</p>
               </div>
             </div>
-            <div class="col-3">
-              <img src="./imagenes/i_celular.png" class="card-img-top" >
+            <div class="col-md-3">
+              <img src="./imagenes/i_celular.png">
               <div class="card-body">
                 <p class="card-text h4">Celulares</p>
               </div>
             </div>
         </div>
         
-        <p>Consolas de videojuegos, autos, equipamiento industrial, relojes, refrigeradoras, peluches, camaras ... uff <br>y miles de dispositivos mas</p>
+        <p>Televisores, consolas de videojuegos, autos, equipamiento industrial, relojes, refrigeradoras, peluches, cámaras ... ufffff<br>y miles de dispositivos más</p>
         
         <!--<h3>A traves de multiples plataformas</h3>
         <div class="row justify-content-center">
@@ -134,23 +135,23 @@
         </div>
         <p>C#, Java, Visual Basic .NET, PHP, Perl, Ruby, Swift, Objective C</p>-->
     
-        <h2>Lo anterior es genial porque las maquinas</h2>
+        <h2 class="mt-5">Lo anterior es genial porque las máquinas</h2>
         
-        <div class="row justify-content-center">
-            <div class="col-3">
-              <img src="./imagenes/i_no-aumento.png" class="card-img-top" >
+        <div class="row justify-content-around">
+            <div class="col-md-3">
+              <img src="./imagenes/i_no-aumento.png">
               <div class="card-body">
                 <p class="card-text h4">No piden aumentos</p>
               </div>
             </div>
-            <div class="col-3">
-              <img src="./imagenes/i_sin-cansancio.png" class="card-img-top" >
+            <div class="col-md-3">
+              <img src="./imagenes/i_sin-cansancio.png">
               <div class="card-body">
                 <p class="card-text h4">No se cansan</p>
               </div>
             </div>
-            <div class="col-3">
-              <img src="./imagenes/i_buen-trabajo.png" class="card-img-top" >
+            <div class="col-md-3">
+              <img src="./imagenes/i_buen-trabajo.png">
               <div class="card-body">
                 <p class="card-text h4">Hacen las cosas bien</p>
               </div>
@@ -159,100 +160,100 @@
 
         <p>Si quieres usar su poder debes saber programar</p>
     
-        <button type="button" class="btn btn-primary btn-lg">Aprende a Programar</button>
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#accesotalleres">Aprende a Programar</button>
         
         <!--Que se puede crear -->
-        <h2 class="mt-4">2. Programar es sinonimo de crear, si aprendes podrias crear:</h2>
+        <h2 class="mt-4">2. Programar es sinónimo de crear, si aprendes podrias crear:</h2>
 
         <div class="row justify-content-center">
-            <div class="col-3">
-              <img src="./imagenes/i_animaciones.png" class="card-img-top" >
+            <div class="col-sm-3">
+              <img src="./imagenes/i_animaciones.png">
               <div class="card-body">
                 <p class="card-text h4">Animaciones</p>
               </div>
             </div>
-            <div class="col-3">
-              <img src="./imagenes/i_historias.png" class="card-img-top" >
+            <div class="col-sm-3">
+              <img src="./imagenes/i_historias.png">
               <div class="card-body">
                 <p class="card-text h4">Historias</p>
               </div>
             </div>
-            <div class="col-3">
-              <img src="./imagenes/i_juegos.png" class="card-img-top" >
+            <div class="col-sm-3">
+              <img src="./imagenes/i_juegos.png">
               <div class="card-body">
                 <p class="card-text h4">Juegos</p>
               </div>
             </div>
-            <div class="col-3">
-              <img src="./imagenes/i_applicaciones.png" class="card-img-top" >
+            <div class="col-sm-3">
+              <img src="./imagenes/i_applicaciones.png">
               <div class="card-body">
                 <p class="card-text h4">Aplicaciones</p>
               </div>
             </div>
         </div>
-        <p>Paginas web, herramientas de gestión, tiendas virtuales, reconocimiento, facial, algoritmos para fotografias los oyos negros<br>y todo lo que te imagines</p>
+        <p>Páginas web, herramientas de gestión, tiendas virtuales, reconocimiento, facial, algoritmos para fotografias los hoyos negros<br>y todo lo que te imagines</p>
         
         <h2>Esto esta pasando en todas las industrias</h2>
-        <div class="row justify-content-center">
-            <div class="col-3">
-              <img src="./imagenes/i_educacion.png" class="card-img-top" >
+        <div class="row justify-content-around">
+            <div class="col-sm-3">
+              <img src="./imagenes/i_educacion.png">
               <div class="card-body">
                 <p class="card-text h4">Educación</p>
               </div>
             </div>
-            <div class="col-3">
-              <img src="./imagenes/i_salud.png" class="card-img-top" >
+            <div class="col-sm-3">
+              <img src="./imagenes/i_salud.png">
               <div class="card-body">
                 <p class="card-text h4">Salud</p>
               </div>
             </div>
-            <div class="col-3">
-              <img src="./imagenes/i_comercio.png" class="card-img-top" >
+            <div class="col-sm-3">
+              <img src="./imagenes/i_comercio.png">
               <div class="card-body">
                 <p class="card-text h4">Comercio</p>
               </div>
             </div>
         </div>
-        <p>Transporte, Construcción, Agricultura, Seguridad, Mineria, Pesqueria<br>y muchas mas</p>
+        <p>Transporte, Construcción, Agricultura, Seguridad, Mineria, Pesqueria<br>y muchas más</p>
     
-        <button type="button" class="btn btn-primary btn-lg">Aprende a Programar</button>
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#accesotalleres">Aprende a Programar</button>
     
                  
         <h2 class="mt-4">3. Las mejores empresas del mundo necesitan programadores</h2>
         
-        <div class="row justify-content-center">
-            <div class="col-2">
-              <img src="./imagenes/logo-facebook.png" class="card-img-top" >
+        <div class="row justify-content-around">
+            <div class="col-sm-2">
+              <img src="./imagenes/logo-facebook.png" width="200">
               <div class="card-body">
                 <p class="card-text h4">Facebook</p>
               </div>
             </div>
-            <div class="col-2">
-              <img src="./imagenes/logo-search.png" class="card-img-top" >
+            <div class="col-sm-2">
+              <img src="./imagenes/logo-search.png" width="200">
               <div class="card-body">
                 <p class="card-text h4">Google</p>
               </div>
             </div>
-            <div class="col-2">
-              <img src="./imagenes/logo-amazon.png" class="card-img-top" >
+            <div class="col-sm-2">
+              <img src="./imagenes/logo-amazon.png" width="200">
               <div class="card-body">
                 <p class="card-text h4">Amazon</p>
               </div>
             </div>
-            <div class="col-2">
-              <img src="./imagenes/logo-apple.png" class="card-img-top" >
+            <div class="col-sm-2">
+              <img src="./imagenes/logo-apple.png" width="200">
               <div class="card-body">
                 <p class="card-text h4">Apple</p>
               </div>
             </div>
-            <div class="col-2">
-              <img src="./imagenes/logo-tesla.png" class="card-img-top" >
+            <div class="col-sm-2">
+              <img src="./imagenes/logo-tesla.png" width="200">
               <div class="card-body">
                 <p class="card-text h4">Tesla</p>
               </div>
             </div>            
-            <div class="col-2">
-              <img src="./imagenes/logo-airbnb.png" class="card-img-top" >
+            <div class="col-sm-2">
+              <img src="./imagenes/logo-airbnb.png" width="200">
               <div class="card-body">
                 <p class="card-text h4">Airbnb</p>
               </div>
@@ -261,21 +262,21 @@
         
     
         <h3>Tambien las empresas nacionales</h3>
-        <div class="row justify-content-center align-items-center">
-            <div class="col-2">
-              <img src="./imagenes/logo-elComercio.png" class="card-img-top" >
+        <div class="row justify-content-around align-items-center">
+            <div class="col-sm-2">
+              <img src="./imagenes/logo-elComercio.png" width="200">
               <div class="card-body">
                 <p class="card-text h4">El comercio</p>
               </div>
             </div>
-            <div class="col-2">
-              <img src="./imagenes/logo-Ipsos.png" class="card-img-top" >
+            <div class="col-sm-2">
+              <img src="./imagenes/logo-Ipsos.png" width="200">
               <div class="card-body">
                 <p class="card-text h4">Ipsos</p>
               </div>
             </div>
-            <div class="col-2">
-              <img src="./imagenes/logo_telefonica.png" class="card-img-top" >
+            <div class="col-sm-2">
+              <img src="./imagenes/logo_telefonica.png" width="200">
               <div class="card-body">
                 <p class="card-text h4">Telefónica</p>
               </div>
@@ -284,109 +285,109 @@
     
         <p>Como vez existe una demanda alta y creciente de programadores en el mercado local e internacional. Inclusive en tu propia inovación o empresa, programar te dara una ventaja competitiva</p>
     
-        <button type="button" class="btn btn-primary btn-lg">Aprende a Programar</button>
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#accesotalleres">Aprende a Programar</button>
     
         
         <h1 id="comoaprender" class="mt-5">¿Cómo deberia aprender?</h2>
-        <div class="row justify-content-center align-items-center">
-            <div class="col-7">
+        <div class="row justify-content-around align-items-center">
+            <div class="col-sm-7">
                 <p >Hoy en dia hay varios sitios web, cursos en linea, videos a demanda, documentación y demas alternativas; la verdad muchas de estas opciones son geniales, gratuitas y nosostros tambien las sugerimos. Sin embargo debes tener en cuenta lo siguiente:</p>
                 
                 <h2>Programar no es un conocimiento, es una HABILIDAD</h2>
 
                 <p >Teniendo esto en cuenta busca opciones que te lleven a la acción y no solo viendo como otros programan, eso hará una gran diferencia. Es como los ejercicios puedes ver miles de horas de videos, leer varios libros o conocer muchos deportistas pero para lograr los resultados deseados tienes que practicar.</p>
             </div>
-            <div class="col-3">
+            <div class="col-sm-3">
                 <img src="./imagenes/i_programar-habilidad.png" class="card-img-top" >
             </div>
         </div>
         <!--Nosotros-->
         <h1 id="nosotros" class="mt-5">Nosotros</h1>
         <div class="row justify-content-center align-items-center">
-            <div class="col-3">
+            <div class="col-sm-3">
                 <img src="./imagenes/i_logo-appdev.png" class="card-img-top" >
             </div>
-            <div class="col-9">
-                <h2>¿Quienes somos y como podemos ayudarte?</h2>
-                <p>Aprende a programar es una marca del la empresa APPDEV PE especialistas en desarrollo de soluciones digitales como creacion de activos digitales, desarrollo de marca y marketing digital.</p>
+            <div class="col-sm-7">
+                <h2>¿Quiénes somos y cómo podemos ayudarte?</h2>
+                <p>Aprende a programar es una marca del la empresa APPDEV PE especialistas en desarrollo de soluciones digitales como creación de activos digitales, desarrollo de marca y marketing digital.</p>
 
-                <p>Brindamos talles de programación para niños, jovenes y adultos con una metología de aprendizaje creativo basado en proyectos, pasión, colaboración y juegos</p>
+                <p>Brindamos talleres de programación para niños, jovenes y adultos con una metología de aprendizaje creativo basado en proyectos, pasión, colaboración y juegos</p>
             </div>
         </div>
         
         
         <!--Taller-->
         
-        <h2 id="talleres" class="mt-4">¿Por qué deberia deberia elegirlos a ustedes?</h2>
+        <h2 id="talleres" class="mt-4">¿Por qué deberia elegirlos a ustedes?</h2>
     
         <p>Nosotros te ofrecemos un <strong>APRENDIZAJE EFECTIVO</strong> en nuestros talleres</p>
     
-        <div class="row justify-content-center align-items-center">
-            <div class="col-4">
+        <div class="row justify-content-around align-items-center">
+            <div class="col-sm-4">
                 <img src="./imagenes/f_trabajo-objetivos.jpg" class="card-img-top" >
             </div>
-            <div class="col-6">
+            <div class="col-sm-5">
                 <h2>El trabajo es basado en objetivos</h2>
                 <p>El principal protagonista del trabajo seras tú, desarrollaras proyectos y tendras metas especificas de acuerdo a tus preferencias y grado de dificultad</p>
             </div>
         </div>
         <div class="row justify-content-center align-items-center">
-            <div class="col-6">
+            <div class="col-sm-5">
                 <h2>Tienes un entrenador e inspiración constante</h2>
                 <p>El objetivo de nuestros entrenadores es de guiar, motivar e inspirarte en cada etapa de tu aprendizaje. Siempre con un enfoque creativo y practico que te permita obtener confianza y ganas de superarte</p>
             </div>
-            <div class="col-4">
+            <div class="col-sm-4">
                 <img src="./imagenes/f_inspiracion-constante.jpg" class="card-img-top" >
             </div>
         </div>
         <div class="row justify-content-center align-items-center">
-            <div class="col-4">
+            <div class="col-sm-4">
                 <img src="./imagenes/f_avance-supervisado.jpg" class="card-img-top" >
             </div>
-            <div class="col-6">
+            <div class="col-sm-5">
                 <h2>Tu avance es supervisado y retroalimentado</h2>
                 <p>Desde el inicio hasta el final medimos tus avances y te ayudamos a mejorar cada vez mas. No hay mejor forma de avanzar que aprender de la experiencia y hacerlo mejor la proxima vez.</p>
             </div>
         </div>
-        <div class="row justify-content-center align-items-center">
-            <div class="col-6">
+        <div class="row justify-content-around align-items-center">
+            <div class="col-sm-5">
                 <h2>Hay un ambiente motivador con relaciones duraderas</h2>
                 <p>El espacio es agradable, amplio, con elementos visuales y auditivos  lo cual es un incrementará tu aprendizaje. El trabajo colaborativo basado en el respeto es una pieza escencial lo que permitira desarrollar no solo habilidades de programación sino intrapersonales</p>
             </div>
-            <div class="col-4">
+            <div class="col-sm-4">
                 <img src="./imagenes/f_experiencias-unicas.jpg" class="card-img-top" >
             </div>
         </div>
     
         <p>No esperes más</p>
     
-        <button type="button" class="btn btn-primary btn-lg">Aprende a Programar</button>
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#accesotalleres">Aprende a Programar</button>
     
         <h2 id="faq" class="mt-5">Preguntas Frecuentes</h2>
         <div class="row justify-content-center align-items-center">
-            <div class="col-7 text-justify">
-                <h4>¿Cuales son los talleres disponibles?</h4>
-                <p>Actuamente brindamos los talleres de Programación Creativa con Scratch y Fundamentos de Programación con Javascript para saber cual elegir has clic aqui<br>Se esta preparando proximamente los bootcamps (talleres intensivos) de Desarrollo Web full-stack, Desarrollo Movil, Inteligencia Artificial y Realidad Virtual/Aumentada, si tienes interes puedes pre-inscribirte aqui.</p>
-                <h4>¿Donde se encuentran?</h4>
+            <div class="col-sm-7 text-justify">
+                <h4>¿Cuáles son los talleres disponibles?</h4>
+                <p>Actuamente brindamos los talleres de Programación Creativa con Scratch y Fundamentos de Programación con Javascript para saber cual elegir has <a class="btn btn-outline-success" role="button" data-toggle="modal" data-target="#accesotalleres">Click aqui</a><br>Se esta preparando proximamente los bootcamps (talleres intensivos) de Desarrollo Web full-stack, Desarrollo Movil, Inteligencia Artificial y Realidad Virtual/Aumentada, si tienes interes puedes <a class="btn btn-outline-success" role="button" href="https://wpp-redirect.herokuapp.com/go/?p=51924742965&m=Hola,%20quiero%20preinscribirme%20en%20un%20taller%20intensivo">pre-inscribirte aquí.</a></p>
+                <h4>¿Dónde se encuentran?</h4>
                 <p>Nos encontramos brindando los talleres en las instalaciones del colegio Carpe Diem, Av. Alcazar 258 - Rimac</p>
-                <h4>¿Cuales son los costos y horarios?</h4>
-                <p>Para mayor información de costos y horarios consulta aqui</p>
-                <h4>¿Se necesita algun conocimiento previo?</h4>
-                <p>No es indispensable, pero se recomienda aritmetica y algebra basica de colegio</p>
+                <h4>¿Cuáles son los costos y horarios?</h4>
+                <p>Para mayor información de costos y horarios consulta aquí</p>
+                <h4>¿Se necesita algún conocimiento previo?</h4>
+                <p>No es indispensable, pero se recomienda aritmética y álgebra básica de colegio</p>
             </div>
-            <div class="col-3">
+            <div class="col-sm-3">
                 <img src="./imagenes/i_faq.png" class="card-img-top" >
             </div>
         </div>
     
         <h1 id="contacto" class="mt-5">Contacto</h1>
         <div class="row justify-content-center align-items-center">
-            <div class="col-6">
-                <p>Para cualquier duda o consulta puedes</p>
-                <button type="button" class="btn btn-success">Escribenos aquí</button>
-                <p class="mt-2">Tambien puedes visitarnos en<br>Av. Alcazar 258 - Rimac</p>
+            <div class="col-sm-6">
+                <p>Para cualquier duda o consulta</p>
+                <a role="button" class="btn btn-success" href="https://wpp-redirect.herokuapp.com/go/?p=51924742965&m=Hola,%20tengo%20una%20duda%20respecto%20a%20">Escribenos aquí</a>
+                <p class="mt-2">Tambien puedes visitarnos en<br>las instalaciones del colegio Carpe Diem<br>Av. Alcázar 258 - Rímac</p>
             </div>
-            <div class="col-6">
+            <div class="col-sm-6">
                 <img src="./imagenes/f_mapa.jpg" class="card-img-top" >
             </div>
         </div>
@@ -399,6 +400,30 @@
         https://www.skylabcoders.com/es/  
         https://keepcoding.io/es/  
         https://www.hackreactor.com/-->
+    </div>
+
+    <!--Modal acceso talleres-->
+    <div id="accesotalleres" class="modal fade" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">¿Dinos que te gustaría?</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row justify-content-around align-items-center">
+              <div class="col-sm-4">
+                <a type="button" class="btn btn-light btn-lg" href="./prograCreativaScratch.html">Quisiera crear algo rápido y divertido</a>
+              </div>
+              <div class="col-sm-4">
+                <a type="button" class="btn btn-light btn-lg" href="./fundamentoPrograJavascript.html">Quisiera explorar las bases del pensamiento computacional</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 </body>
 <footer class="mt-5 py-5 bg-light text-center">© APPDEV PE - Todos los derechos reservados</footer>

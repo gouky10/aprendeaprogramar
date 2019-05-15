@@ -16,42 +16,43 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav id="mainmenu" class="navbar navbar-expand-sm bg-light">
-        <a class="navbar-brand mb-0 h1" href="./index.html"> <img src="./imagenes/i_logo-aprendeaprogramar.png" width="310" height="40" alt=""></a>
+    <!--Logo y menú-->
+    <nav id="mainmenu" class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="./index.html"><img src="./imagenes/i_logo-aprendeaprogramar.png" width="250" alt="logo aprende a programar"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-            <ul class="nav nav-pills">
-                <li class="navbar-item">
+        <div id="navbarNav" class="navbar-collapse collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
                     <a class="nav-link" href="./index.html#porque">¿Por qué programar?</a>
                 </li>
-                <li class="navbar-item">
+                <li class="nav-item">
                     <a class="nav-link" href="./index.html#comoaprender">¿Cómo aprender?</a>
                 </li>
-                <li class="navbar-item">
+                <li class="nav-item">
                     <a class="nav-link" href="./index.html#nosotros">Nosotros</a>
                 </li>
-                <li class="navbar-item dropdown">
+                <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="./index.html#talleres" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Talleres</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="./prograCreativaScratch.html">Programación creativa</a>
                         <a class="dropdown-item" href="./fundamentoPrograJavascript.html">Fundamentos de programación</a>
                     </div>
                 </li>
-                <li class="navbar-item">
+                <li class="nav-item">
                     <a class="nav-link" href="./index.html#faq">Preguntas Frecuentes</a></li>
-                <li class="navbar-item">
+                <li class="nav-item">
                     <a class="nav-link" href="./index.html#contacto">Contacto</a></li>
             </ul>
         </div>
-    </nav>
+    </nav>      
     
-    <!--Beneficios para el subconciente: Reconocimiento, Placer, Exploración-->
+    <!--Beneficios: Reconocimiento, Placer, Exploración-->
     <div class="container-fluid text-center">
         <div class="jumbotron">
             <div class="row justify-content-center">
-                <h1 class="display-2">Construye algo único con diversión y creatividad</h1>
+                <h1 class="display-3">Construye algo único con diversión y creatividad</h1>
             </div>
         </div>
     </div>
@@ -63,49 +64,52 @@
         <h1>Taller de Programación Creativa con Scratch</h1>
         
         <p>El taller de Programación Creativa esta dirigido para niños y jovenes estudiantes que busquen divertirse, crear y compartir animaciones, historias y juegos que los inspiren y encaminen a una futura carrera técnologica.</p>
+
+        <a role="button" class="btn btn-success" href="https://wpp-redirect.herokuapp.com/go/?p=51924742965&m=Hola,%20quisiera%20inscribirme%20en%20el%20taller%20de%20programaci%C3%B3n%20creativa%20con%20Scratch">Inscribirse</a>
+
         
     <!--Modalidad-->
-        <h2>¿Porque asistir a este taller?</h2>
-        <div class="row justify-content-center">
-            <div class="col-4">
+        <h2>¿Por qué asistir a este taller?</h2>
+        <div class="row justify-content-around">
+            <div class="col-sm-4">
                 <img src="./imagenes/f_experiencia-divertida.jpg" class="card-img-top" >
                 <div class="card-body">
                 <p class="card-text h4">Experiencia única y divertida</p>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-sm-4">
                 <img src="./imagenes/f_sesiones-practicas-28.jpg" class="card-img-top" >
                 <div class="card-body">
                 <p class="card-text h4">Sesiones prácticas y personalizadas</p>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-sm-4">
                 <img src="./imagenes/f_juegos-pocotiempo.jpg" class="card-img-top" >
                 <div class="card-body">
-                <p class="card-text h4">Creación de animiaciones, historias y juegos en poco tiempo</p>
+                <p class="card-text h4">Creación de animaciones, historias y juegos en poco tiempo</p>
               </div>
             </div>
         </div>
         
         <h2>Duración y Horario</h2>
         
-        <div class="row justify-content-center">
-            <div class="col-3">
-                <img src="./imagenes/i_duracion.png" class="card-img-top" >
+        <div class="row justify-content-around">
+            <div class="col-sm-2">
+                <img src="./imagenes/i_duracion.png" width="200">
                 <div class="card-body">
                 <h4 class="card-title">Duración</h4>
                 <p class="card-text">8 semanas</p>
               </div>
             </div>
-            <div class="col-3">
-                <img src="./imagenes/i_dias.png" class="card-img-top" >
+            <div class="col-sm-2">
+                <img src="./imagenes/i_dias.png" width="200">
                 <div class="card-body">
-                <h4 class="card-title">Dias</h4>
+                <h4 class="card-title">Días</h4>
                 <p class="card-text">Martes y Jueves</p>
               </div>
             </div>
-            <div class="col-3">
-                <img src="./imagenes/i_horario.png" class="card-img-top" >
+            <div class="col-sm-2">
+                <img src="./imagenes/i_horario.png" width="200">
                 <div class="card-body">
                 <h4 class="card-title">Horarios</h4>
                 <p class="card-text">4:00pm - 6:00pm</p>
@@ -114,7 +118,7 @@
         </div>
             
         <div class="row justify-content-center align-items-center">
-            <div class="col-4">
+            <div class="col-sm-4">
                 <h4 class="mt-4">Actividades a realizar</h4>
                 <p>Mas de 16 actividades durante 8 semanas</p>
                 <ol>
@@ -127,57 +131,57 @@
                 </ol>
                 
             </div>
-            <div class="col-4">
-                <h4 class="card-title">Inversión y proximo inicio:</h4>
+            <div class="col-sm-4">
+                <h4 class="card-title">Inversión y próximo inicio:</h4>
                 <p>Constantemente estamos iniciando el taller, para mayor detalle te invitamos a escribirnos sin compromiso</p>
-                <a class="btn btn-success mt-1" href="#" role="button">Mayor detalle</a>
+                <a class="btn btn-success mt-1" href="https://wpp-redirect.herokuapp.com/go/?p=51924742965&m=Hola,%20quisiera%20saber%20el%20costo%20y%20fecha%20de%20inicio%20del%20taller%20de%20programaci%C3%B3n%20creativa%20con%20Scratch" role="button">Mayor detalle</a>
             </div>
         </div>
         
         
-        <h2 class="mt-4">Metodologia</h2>
+        <h2 class="mt-4">Metodología</h2>
         
-        <div class="row justify-content-center align-items-center">
-            <div class="col-3">
+        <div class="row justify-content-around align-items-center">
+            <div class="col-sm-4">
                 <img src="./imagenes/f_trabajo-objetivos.jpg" class="card-img-top" >
             </div>
-            <div class="col-6">
+            <div class="col-sm-5">
                 <h3>El trabajo es basado en objetivos</h3>
                 <p>El principal protagonista del trabajo seras tú, desarrollaras proyectos y tendras metas especificas de acuerdo a tus preferencias y grado de dificultad</p>
             </div>
         </div>
         <div class="row justify-content-center align-items-center">
-            <div class="col-6">
-                <h3>Entrenador guia de soporte</h3>
+            <div class="col-sm-5">
+                <h3>Entrenador guía de soporte</h3>
                 <p>El objetivo de nuestros entrenadores es de guiar, motivar e inspirarte en cada etapa de tu aprendizaje. Siempre con un enfoque creativo y practico que te permita obtener confianza y ganas de superarte</p>
             </div>
-            <div class="col-3">
+            <div class="col-sm-4">
                 <img src="./imagenes/f_inspiracion-constante.jpg" class="card-img-top" >
             </div>
         </div>
         <div class="row justify-content-center align-items-center">
-            <div class="col-3">
+            <div class="col-sm-4">
                 <img src="./imagenes/f_avance-supervisado.jpg" class="card-img-top" >
             </div>
-            <div class="col-6">
+            <div class="col-sm-5">
                 <h3>Avance de acuerdo al nivel</h3>
                 <p>Desde el inicio hasta el final medimos tus avances y te ayudamos a mejorar cada vez mas. No hay mejor forma de avanzar que aprender de la experiencia y hacerlo mejor la proxima vez.</p>
             </div>
         </div>
-        <div class="row justify-content-center align-items-center">
-            <div class="col-6">
-                <h3>Una modulo por estudiante</h3>
-                <p>El espacio es agradable, amplio, con elementos visuales y auditivos  lo cual es un incrementará tu aprendizaje. El trabajo colaborativo basado en el respeto es una pieza escencial lo que permitira desarrollar no solo habilidades de programación sino intrapersonales</p>
+        <div class="row justify-content-around align-items-center">
+            <div class="col-sm-5">
+                <h3>Un módulo por estudiante</h3>
+                <p>El espacio es agradable, amplio, con elementos visuales y auditivos lo cual es un incrementará tu aprendizaje. El trabajo colaborativo basado en el respeto es una pieza escencial lo que permitira desarrollar no solo habilidades de programación sino intrapersonales</p>
             </div>
-            <div class="col-3">
+            <div class="col-sm-4">
                 <img src="./imagenes/f_experiencias-unicas.jpg" class="card-img-top" >
             </div>
         </div>
         
         
         <h2 class="mt-4">Probar para saber</h2>
-        <p>Si estas interesado pero aun no te decides te invitamos a participar en una sesion GRATUITA donde viviras en una experiencia introductoria que te permita conocer nuestra eficiente forma de trabajo.</p>
-        <a class="btn btn-primary mt-1" href="#" role="button">Registrate aqui</a>
+        <p>Si estas interesado pero aún no te decides te invitamos a participar en una sesión GRATUITA donde viviras en una experiencia introductoria que te permita conocer nuestra eficiente forma de trabajo.</p>
+        <a class="btn btn-primary mt-1" href="https://wpp-redirect.herokuapp.com/go/?p=51924742965&m=Hola,%20quisiera%20registrame%20en%20la%20sesi%C3%B3n%20gratuita" role="button">Registrate aqui</a>
     </div>
 </body>
 <footer class="mt-5 py-5 bg-light text-center">© APPDEV PE - Todos los derechos reservados</footer>
